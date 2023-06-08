@@ -1,0 +1,33 @@
+{
+  "name": "coding-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "coding-cli": "./bin/cli.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigTig/coding-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigTig/coding-cli/issues"
+  },
+  "homepage": "https://github.com/bigTig/coding-cli#readme",
+  "dependencies": {
+    "commander": "^10.0.1",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^8.2.5",
+    "ora": "^5.4.1"
+  }
+}
